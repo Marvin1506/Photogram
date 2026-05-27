@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Klon</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="script.js"></script>
+
+<link rel="icon" type="image/png" href="/img/Instagram-Favicon.png">
+
+</head>
+
+<body onload="init()">
+
+    <div class="big-image-container display-none" id="story-images"></div>
+
+    <div class="sidenav-pictures" id="sidenav-pictures">
+    <img class="sidenav-icons" src="img/menu-icons/Startseite.png" alt="">
+    <img class="sidenav-icons2" src="img/menu-icons/Suchen.png" alt="">
+    <img class="sidenav-icons3" src="img/menu-icons/Entdecken.png" alt="">
+    <img class="sidenav-icons4" src="img/menu-icons/Reels.png" alt="">
+    <img class="sidenav-icons5" src="img/menu-icons/Nachrichten.png" alt="">
+    <img class="sidenav-icons6" src="img/menu-icons/Beanchrichtigungen.png" alt="">
+    <img class="sidenav-icons7" src="img/menu-icons/Erstellen.png" alt="">
+    <img class="sidenav-icons8" src="img/Mein Profil.jpg" alt="">
+    <img class="sidenav-icons9" src="img/menu-icons/Thread.png" alt="">
+    <img class="sidenav-icons10" src="img/menu-icons/Mehr.png" alt="">
+    </div>
+
+    <div class="sidenav">
+        <a href="#"><b>Startseite</b></a>
+        <a href="#">Suche</a>
+        <a href="#">Entdecken</a>
+        <a href="#">Reels</a>
+        <a href="#">Nachrichten</a>
+        <a href="#">Benachrichtigungen</a>
+        <a href="#">Erstellen</a>
+        <a href="#">Profil</a>
+    </div>
+
+    <div class="sidenav1">
+        <a href="#">Thread</a>
+        <a href="#">Mehr</a>
+    </div>
+    
+
+    <div class="sidenav-seperator"></div>
+      
+    <div class="menu-content" id="menu-content"></div>
+    <div id="menu-container" class="menu-container">
+        <div>
+            <menu class="menu">Insta-One</menu>
+        </div>
+
+        <div class="profile-container">
+            <div class="placeholder-space">
+            <input placeholder="Suchen..." type="text">
+            </div>
+            
+            <div>
+                <img class="my-profile" src="img/Mein Profil.jpg" alt="">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="line"></div>
+
+    <menu class="story-images" id="story-images">
+
+        <img onclick="showStory1()" id="story1" class="story-picture-size" src="img/storys/beach.jpg" alt="">
+        <img onclick="showStory2()" id="story2" class="story-picture-size" src="img/storys/car.jpg" alt="">
+        <img onclick="showStory3()" id="story3" class="story-picture-size" src="img/storys/football.jpg" alt="">
+        <img onclick="showStory4()" id="story4" class="story-picture-size" src="img/storys/soccer.jpg" alt="">
+        <img onclick="showStory5()" id="story5" class="story-picture-size" src="img/storys/sportscar.jpg" alt="">
+        <img onclick="showStory6()" id="story6" class="story-picture-size" src="img/storys/waves.jpg" alt="">
+        <img onclick="showStory7()" id="story7" class="story-picture-size" src="img/storys/amusement1.jpg" alt="">
+        <img onclick="showStory8()" id="story8" class="story-picture-size" src="img/storys/park.jpg" alt="">
+
+    </menu>
+
+
+    
+    <div id="content" class="first-container">
+
+
+    </div>
+</body>
+
+</html>
+
+
+<!--<div id="story-images" class="story-images"></div> kommt in den story images div wenn man nicht statisch will
