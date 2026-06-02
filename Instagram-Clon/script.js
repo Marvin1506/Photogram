@@ -101,7 +101,7 @@ function showContent() {
             <img class="image-size" src="${post['image']}">
             <div class="description-text-style">${post['description']} <div class="location-text-style">${post['location']}</div>
             <div class="comment-section" id="comment-section${i}"></div>
-            <div><input placeholder="Kommentar schreiben..." type="text" id="comment-input${i}" class="comment-input"><button onclick="comment(${i})">Kommentieren</button></div>
+            <div><input placeholder="Kommentar schreiben..." type="text" id="comment-input${i}" class="comment-input"><button class="comment-button" onclick="comment(${i})">Kommentieren</button></div>
         </div>
         `;
     }

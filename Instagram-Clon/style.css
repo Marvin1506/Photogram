@@ -316,6 +316,15 @@ margin-right: 20px;
 
 .comment-input {
     margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.comment-button {
+    cursor: pointer;
+}
+
+.search-bar {
+    cursor: pointer;
 }
 
 .big-image-container {
