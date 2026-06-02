@@ -112,7 +112,7 @@ function showStory1() {
     menucontainer.classList.remove('display-none');
 
     menucontainer.innerHTML += `
-        <img src="img/cross.png" class="close-story-button" id="close-story-button" onclick="closeBigImage()">
+        <img src="./img/cross.png" class="close-story-button" id="close-story-button" onclick="closeBigImage()">
         <img src="img/storys/beach.jpg" class="big-story-image">
 `;
 }
@@ -122,7 +122,7 @@ function showStory2() {
     menucontainer.classList.remove('display-none');
     
     menucontainer.innerHTML += `
-    <img src="img/cross.png" class="close-story-button" id="close-story-button" onclick="closeBigImage()">
+    <img src="./img/cross.png" class="close-story-button" id="close-story-button" onclick="closeBigImage()">
     <img src="img/storys/car.jpg" class="big-story-image">
 `;
 }
@@ -132,7 +132,7 @@ function showStory3() {
     menucontainer.classList.remove('display-none');
     
     menucontainer.innerHTML += `
-    <img src="img/cross.png" class="close-story-button" id="close-story-button" onclick="closeBigImage()">
+    <img src="./img/cross.png" class="close-story-button" id="close-story-button" onclick="closeBigImage()">
     <img src="img/storys/football.jpg" class="big-story-image">
 `;
 }
@@ -142,7 +142,7 @@ function showStory4() {
     menucontainer.classList.remove('display-none');
     
     menucontainer.innerHTML += `
-    <img src="img/cross.png" class="close-story-button" id="close-story-button" onclick="closeBigImage()">
+    <img src="./img/cross.png" class="close-story-button" id="close-story-button" onclick="closeBigImage()">
     <img src="img/storys/soccer.jpg" class="big-story-image">
 `;
 }
@@ -152,7 +152,7 @@ function showStory5() {
     menucontainer.classList.remove('display-none');
     
     menucontainer.innerHTML += `
-    <img src="img/cross.png" class="close-story-button" id="close-story-button" onclick="closeBigImage()">
+    <img src="./img/cross.png" class="close-story-button" id="close-story-button" onclick="closeBigImage()">
     <img src="img/storys/sportscar.jpg" class="big-story-image">
 `;
 }
@@ -162,7 +162,7 @@ function showStory6() {
     menucontainer.classList.remove('display-none');
     
     menucontainer.innerHTML += `
-    <img src="img/cross.png" class="close-story-button" id="close-story-button" onclick="closeBigImage()">
+    <img src="./img/cross.png" class="close-story-button" id="close-story-button" onclick="closeBigImage()">
     <img src="img/storys/waves.jpg" class="big-story-image">
 `;
 }
@@ -172,7 +172,7 @@ function showStory7() {
     menucontainer.classList.remove('display-none');
     
     menucontainer.innerHTML += `
-    <img src="img/cross.png" class="close-story-button" id="close-story-button" onclick="closeBigImage()">
+    <img src="./img/cross.png" class="close-story-button" id="close-story-button" onclick="closeBigImage()">
     <img src="img/storys/amusement1.jpg" class="big-story-image">
 `;
 }
@@ -182,7 +182,7 @@ function showStory8() {
     menucontainer.classList.remove('display-none');
     
     menucontainer.innerHTML += `
-    <img src="img/cross.png" class="close-story-button" id="close-story-button" onclick="closeBigImage()">
+    <img src="./img/cross.png" class="close-story-button" id="close-story-button" onclick="closeBigImage()">
     <img src="img/storys/park.jpg" class="big-story-image">
 `;
 }
