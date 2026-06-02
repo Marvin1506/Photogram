@@ -243,6 +243,7 @@ margin-right: 20px;
     margin-right: 16px;
     border-style: groove;
     border-color: blueviolet;
+    cursor: pointer;
 }
 
 .author-profile-picture {
